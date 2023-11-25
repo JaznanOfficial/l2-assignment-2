@@ -26,6 +26,9 @@ const getAllUserService = async () => {
 
 const getSingleUserService = async (id: string) => {
   // console.log(id);
+  // if (await UserModel.isUserExists(studentData.id)) {
+  //   throw new Error('User already exists!');
+  // }
   const result = await UserModel.aggregate([
     { $match: { userId: Number(id) } },
     {

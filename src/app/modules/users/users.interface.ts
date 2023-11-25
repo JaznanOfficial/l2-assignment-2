@@ -1,5 +1,7 @@
 // import { Model } from 'mongoose';
 
+import { Model } from 'mongoose';
+
 export type fullNameType = {
   firstName: string;
   lastName: string;
@@ -31,6 +33,8 @@ export type UsersType = {
   orders: ordersType;
 };
 
-// export interface UserModel extends Model<UsersType> {
-//   isUserExists(id: string): Promise<UsersType | null>;
-// }
+//for creating static
+
+export interface UserModelInterface extends Model<UsersType> {
+  isUserExists(id: string): Promise<UsersType | null>;
+}

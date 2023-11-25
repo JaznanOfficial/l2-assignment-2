@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import userValidationSchema from './users.validation';
 import { UserService } from './users.service';
+import { UserModel } from './users.model';
 
 const createUsersController = async (req: Request, res: Response) => {
   try {
@@ -45,7 +46,8 @@ const getAllUsersController = async (req: Request, res: Response) => {
 const getSingleUserController = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
-    console.log(userId);
+    // console.log(userId);
+
     const result = await UserService.getSingleUserService(userId);
 
     res.status(200).json({
