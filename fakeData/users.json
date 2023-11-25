@@ -1,0 +1,71 @@
+[
+  {
+    "userId": 1,
+    "username": "john_doe",
+    "fullName": {
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "password": "securepassword123",
+    "age": 25,
+    "email": "john.doe@example.com",
+    "isActive": true,
+    "hobbies": ["reading", "gardening"],
+    "address": {
+      "street": "123 Main St",
+      "city": "Cityville",
+      "country": "Countryland"
+    },
+    "orders": {
+      "productName": "Gadget",
+      "price": 50,
+      "quantity": 2
+    }
+  },
+  {
+    "userId": 2,
+    "username": "alice_smith",
+    "fullName": {
+      "firstName": "Alice",
+      "lastName": "Smith"
+    },
+    "password": "password1234",
+    "age": 30,
+    "email": "alice.smith@example.com",
+    "isActive": true,
+    "hobbies": ["painting", "traveling"],
+    "address": {
+      "street": "456 Oak St",
+      "city": "Townsville",
+      "country": "Countryland"
+    },
+    "orders": {
+      "productName": "Widget",
+      "price": 30,
+      "quantity": 3
+    }
+  },
+  {
+    "userId": 3,
+    "username": "bob_jones",
+    "fullName": {
+      "firstName": "Bob",
+      "lastName": "Jones"
+    },
+    "password": "bobspassword",
+    "age": 22,
+    "email": "bob.jones@example.com",
+    "isActive": false,
+    "hobbies": ["coding", "gaming"],
+    "address": {
+      "street": "789 Pine St",
+      "city": "Villagetown",
+      "country": "Countryland"
+    },
+    "orders": {
+      "productName": "Tech Gizmo",
+      "price": 80,
+      "quantity": 1
+    }
+  }
+]
