@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Oil Change",
+      "services": [
+        {
+          "id": 101,
+          "name": "Conventional Oil Change",
+          "description": "Standard oil change with conventional oil",
+          "duration": "30 minutes",
+          "price": 29.99
+        },
+        {
+          "id": 102,
+          "name": "Synthetic Oil Change",
+          "description": "Oil change with synthetic oil for better performance",
+          "duration": "45 minutes",
+          "price": 49.99
+        },
+        {
+          "id": 103,
+          "name": "High Mileage Oil Change",
+          "description": "Special oil change for vehicles with over 75,000 miles",
+          "duration": "45 minutes",
+          "price": 39.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tire Services",
+      "services": [
+        {
+          "id": 201,
+          "name": "Tire Rotation",
+          "description": "Rotation of all four tires to ensure even wear",
+          "duration": "30 minutes",
+          "price": 19.99
+        },
+        {
+          "id": 202,
+          "name": "Tire Balancing",
+          "description": "Balancing of tires to improve ride quality and tire longevity",
+          "duration": "30 minutes",
+          "price": 29.99
+        },
+        {
+          "id": 203,
+          "name": "Tire Replacement",
+          "description": "Replacement of old tires with new ones",
+          "duration": "1 hour",
+          "price": 100.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brake Services",
+      "services": [
+        {
+          "id": 301,
+          "name": "Brake Inspection",
+          "description": "Thorough inspection of brake system",
+          "duration": "30 minutes",
+          "price": 19.99
+        },
+        {
+          "id": 302,
+          "name": "Brake Pad Replacement",
+          "description": "Replacement of worn brake pads",
+          "duration": "1 hour",
+          "price": 99.99
+        },
+        {
+          "id": 303,
+          "name": "Brake Fluid Flush",
+          "description": "Flushing and replacement of brake fluid",
+          "duration": "1 hour",
+          "price": 79.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Battery Services",
+      "services": [
+        {
+          "id": 401,
+          "name": "Battery Inspection",
+          "description": "Inspection of battery health and connections",
+          "duration": "20 minutes",
+          "price": 14.99
+        },
+        {
+          "id": 402,
+          "name": "Battery Replacement",
+          "description": "Replacement of old battery with a new one",
+          "duration": "30 minutes",
+          "price": 89.99
+        },
+        {
+          "id": 403,
+          "name": "Battery Terminal Cleaning",
+          "description": "Cleaning of battery terminals to ensure good connection",
+          "duration": "15 minutes",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Inspection Services",
+      "services": [
+        {
+          "id": 501,
+          "name": "Full Vehicle Inspection",
+          "description": "Comprehensive inspection of the entire vehicle",
+          "duration": "1 hour",
+          "price": 99.99
+        },
+        {
+          "id": 502,
+          "name": "Emission Inspection",
+          "description": "Inspection to ensure vehicle meets emission standards",
+          "duration": "30 minutes",
+          "price": 39.99
+        },
+        {
+          "id": 503,
+          "name": "Safety Inspection",
+          "description": "Inspection to ensure vehicle meets safety standards",
+          "duration": "30 minutes",
+          "price": 29.99
+        }
+      ]
+    }
+  ]
+}

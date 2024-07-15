@@ -1,0 +1,39 @@
+[
+  {
+    "plan": "Free",
+    "price": "0",
+    "features": [
+      "2 Users",
+      "2 Files",
+      "Public Share & Comments",
+      "Chat Support",
+      "New Income Apps"
+    ],
+    "cta": "Signup for free"
+  },
+  {
+    "plan": "Pro",
+    "price": "8",
+    "features": [
+      "4 Users",
+      "All apps",
+      "Unlimited editable exports",
+      "Folders and collaboration ",
+      "All incoming apps"
+    ],
+    "cta": "Go to pro"
+  },
+  {
+    "plan": "Business",
+    "price": "16",
+    "features": [
+      "All the features of pro plan",
+      "Account success Manager",
+      "Single Sign-On (SSO)",
+      "24/7 Priority Support",
+      "Co-conception pograme",
+      "Collaboration-Soon"
+    ],
+    "cta": "Go to Business"
+  }
+]
